@@ -16,5 +16,7 @@
 
   home.packages =  with pkgs; [
     cowsay
+    home-manager
+    meld
   ];
 }
