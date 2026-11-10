@@ -17,6 +17,7 @@
         {
           my.programs = {
             brave.enable = true;
+            firefox.enable = true;
           };
         }
         ./home.nix
