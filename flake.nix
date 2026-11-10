@@ -14,6 +14,11 @@
         nix-config.homeModules.profiles.base
         nix-config.homeModules.profiles.desktop
         nix-config.homeModules.profiles.development
+        {
+          my.programs = {
+            brave.enable = true;
+          };
+        }
         ./home.nix
       ];
     };
