@@ -144,11 +144,11 @@
         "sops-nix": "sops-nix"
       },
       "locked": {
-        "lastModified": 1794591717,
-        "narHash": "sha256-rRa6eVvWoOZ6bJYThPECZIlKp/Gt5nSmYw8q1VzB4HQ=",
+        "lastModified": 1794603541,
+        "narHash": "sha256-7TkcjZ8+c4f2Yx3I6rdoSTAseMkN0ocQOVKVHN9vjg8=",
         "owner": "barnaby0x0",
         "repo": "nix-config",
-        "rev": "a33a698b318e543598fdbac0314f8265bb2efe0f",
+        "rev": "e27c666dd95b1abd047261a8beeb101117a8de5a",
         "type": "github"
       },
       "original": {
@@ -407,11 +407,7 @@
           "nix-config",
           "home-manager"
         ],
-        "nix-config": "nix-config",
-        "nixpkgs": [
-          "nix-config",
-          "nixpkgs"
-        ]
+        "nix-config": "nix-config"
       }
     },
     "sops-nix": {
