@@ -10,14 +10,15 @@
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
 
       modules = [
-        nix-config.homeModules.args
         nix-config.homeModules.profiles.base
-        nix-config.homeModules.profiles.desktop
-        nix-config.homeModules.profiles.development
         {
           my.programs = {
             brave.enable = true;
-            firefox.enable = true;
+            git.enable = true;
+            terminator.enable = true;
+            tmux.enable = true;
+            vim.enable = true;
+            zsh.enable = true;
           };
         }
         ./home.nix
