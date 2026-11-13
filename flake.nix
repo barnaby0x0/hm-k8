@@ -6,7 +6,7 @@
 
   outputs = { nix-config, home-manager, ... }: {
     homeConfigurations."user@k8" = home-manager.lib.homeManagerConfiguration {
-      pkgs = nix-config.lib.homeManager.mkPkgs "x86_64-linux";
+      pkgs = nix-config.lib.commons.mkPkgs "x86_64-linux";
 
       modules = [
         nix-config.homeModules.profiles.base

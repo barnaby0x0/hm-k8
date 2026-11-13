@@ -144,11 +144,11 @@
         "sops-nix": "sops-nix"
       },
       "locked": {
-        "lastModified": 1794603541,
-        "narHash": "sha256-7TkcjZ8+c4f2Yx3I6rdoSTAseMkN0ocQOVKVHN9vjg8=",
+        "lastModified": 1794604893,
+        "narHash": "sha256-rR9408YR3s7HrmssKYTnub1Fgyty88SmmQLS+AmdPLI=",
         "owner": "barnaby0x0",
         "repo": "nix-config",
-        "rev": "e27c666dd95b1abd047261a8beeb101117a8de5a",
+        "rev": "294152eb9d53cdfec9e0ffd1929229151bb9372d",
         "type": "github"
       },
       "original": {
