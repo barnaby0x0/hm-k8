@@ -14,7 +14,7 @@
     theme = "solarized_dark";
   };
 
-  home.packages =  with pkgs; [
+  home.packages = with pkgs; [
     cowsay
     home-manager
     meld
