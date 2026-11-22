@@ -21,6 +21,7 @@
 
   my.programs = {
     brave.enable = true;
+    codium.enable = true;
     firefox.enable = true;
     git.enable = true;
     terminator.enable = true;
