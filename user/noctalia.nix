@@ -61,6 +61,14 @@
 
       };
 
+      control_center.calendar = {
+        # show_events_card     = true
+        show_week_numbers = true; # ISO 8601 week numbers in the month grid
+        show_events_location = true; # show each event's location below its time
+        hide_past_events = false; # hide today's finished events from the event list
+        past_events_threshold_minutes = 30;
+      };
+
       audio = {
         enable_sounds = true;
         enable_volume_sounds = false;
