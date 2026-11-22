@@ -13,8 +13,8 @@
 
       modules = [
         nix-config.homeModules.profiles.base
-        #        nix-config.homeModules.profiles.niri
-        #        ./noctalia.nix
+        nix-config.homeModules.profiles.niri
+        ./noctalia.nix
         ./home.nix
         {
           my.programs = {
