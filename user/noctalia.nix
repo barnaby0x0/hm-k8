@@ -213,7 +213,7 @@
       };
 
       nightlight = {
-        enabled = true;
+        enabled = false;
         force = false;
 
         temperature_day = 6500;

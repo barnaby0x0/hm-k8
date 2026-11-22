@@ -22,9 +22,10 @@
   my.programs = {
     brave.enable = true;
     firefox.enable = true;
-    zsh.enable = true;
+    git.enable = true;
     terminator.enable = true;
     vim.enable = true;
+    zsh.enable = true;
   };
 
   # Taille du curseur (méthode qui fonctionne)
