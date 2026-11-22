@@ -14,18 +14,9 @@
       modules = [
         nix-config.homeModules.profiles.base
         nix-config.homeModules.profiles.niri
+        nix-config.homeModules.nix-flatpak
         ./noctalia.nix
         ./home.nix
-        {
-          my.programs = {
-            brave.enable = true;
-            git.enable = true;
-            terminator.enable = true;
-            tmux.enable = true;
-            vim.enable = true;
-            zsh.enable = true;
-          };
-        }
       ];
     };
   };
