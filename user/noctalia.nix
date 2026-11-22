@@ -15,12 +15,14 @@
         capsule_opacity = 0.4;
 
         start = [
-          "launcher"
+          # "launcher"
           # "wallpaper"
-          "workspaces"
+
+          # "spacer"
+          "taskbar"
         ];
         center = [
-          "clock"
+          "workspaces"
           # "noctalia/notes:notes"
         ];
         # end = [
@@ -39,13 +41,11 @@
 
         end = [
           "audio-vis"
+          "media"
           "cpu"
           "ram"
           "temperature"
-          "media"
           "tray"
-          "notifications"
-          "clipboard"
           "network"
           "bluetooth"
           "volume"
@@ -54,15 +54,18 @@
           "battery"
           # "control-center"
           "wallhaven"
-          "noctalia/mpvpaper:mpvpaper"
-          "flatpak-bg"
+          # "noctalia/mpvpaper:mpvpaper"
+          # "flatpak-bg"
+          "clipboard"
+          "notifications"
+          "clock"
           "session"
         ];
 
       };
 
       control_center.calendar = {
-        # show_events_card     = true
+        show_events_card = false;
         show_week_numbers = true; # ISO 8601 week numbers in the month grid
         show_events_location = true; # show each event's location below its time
         hide_past_events = false; # hide today's finished events from the event list
