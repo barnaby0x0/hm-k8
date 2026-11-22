@@ -16,7 +16,7 @@
 
   programs.alacritty = {
     enable = true;
-    theme = "solarized_dark";
+    #theme = "solarized_dark";
   };
 
   my.programs = {
