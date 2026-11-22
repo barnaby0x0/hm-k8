@@ -31,6 +31,7 @@
   # Override binds
   my.programs.niri.extraBinds = {
     "Mod+Shift+B".spawn = [ "brave" ];
+    "Mod+Alt+T".spawn = [ "terminator" ];
   };
 
   # Taille du curseur (méthode qui fonctionne)
@@ -55,5 +56,6 @@
     mpvpaper
     mpv
     socat
+    ripgrep
   ];
 }
