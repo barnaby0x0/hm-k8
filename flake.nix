@@ -15,8 +15,11 @@
         nix-config.homeModules.profiles.base
         nix-config.homeModules.profiles.niri
         nix-config.homeModules.nix-flatpak
-        ./noctalia.nix
+        # ./noctalia.nix
         ./home.nix
+        #{
+        #  wayland.windowManager.niri.settings.binds."Mod+Shift+B".spawn = [ "brave" ];
+        #}
       ];
     };
   };

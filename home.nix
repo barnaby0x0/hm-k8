@@ -16,7 +16,6 @@
 
   programs.alacritty = {
     enable = true;
-    #theme = "solarized_dark";
   };
 
   my.programs = {
@@ -27,6 +26,11 @@
     terminator.enable = true;
     vim.enable = true;
     zsh.enable = true;
+  };
+
+  # Override binds
+  my.programs.niri.extraBinds = {
+    "Mod+Shift+B".spawn = [ "brave" ];
   };
 
   # Taille du curseur (méthode qui fonctionne)
