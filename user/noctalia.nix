@@ -17,9 +17,12 @@
         start = [
           # "launcher"
           # "wallpaper"
-
-          # "spacer"
+          "cpu"
+          "ram"
+          "temperature"
+          "spacer"
           "taskbar"
+          "spacer"
         ];
         center = [
           "workspaces"
@@ -42,9 +45,6 @@
         end = [
           "audio-vis"
           "media"
-          "cpu"
-          "ram"
-          "temperature"
           "tray"
           "network"
           "bluetooth"
