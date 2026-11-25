@@ -81,6 +81,12 @@
         enable_ddcutil = true;
       };
 
+      idle.behavior.lock = {
+        timeout = 60;
+        action = "lock";
+        enabled = false;
+      };
+
       widget = {
         cpu = {
           type = "sysmon";
