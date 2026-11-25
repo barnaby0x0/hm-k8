@@ -1,6 +1,6 @@
 {
   inputs = {
-    nix-config.url = "github:barnaby0x0/nix-config/develop";
+    nix-config.url = "github:barnaby0x0/nix-config/v0.4";
     home-manager.follows = "nix-config/home-manager";
   };
 
