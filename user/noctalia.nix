@@ -81,10 +81,17 @@
         enable_ddcutil = true;
       };
 
-      idle.behavior.lock = {
-        timeout = 60;
-        action = "lock";
-        enabled = false;
+      idle.behavior = {
+        lock = {
+          timeout = 600;
+          action = "lock";
+          enabled = true;
+        };
+        screen-off = {
+          timeout = 300;
+          action = "screen_off";
+          enabled = false;
+        };
       };
 
       widget = {
