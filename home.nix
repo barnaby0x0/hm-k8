@@ -14,8 +14,18 @@
     email = "victor@mail.net";
   };
 
-  programs.alacritty = {
-    enable = true;
+  programs = {
+    alacritty = {
+      enable = true;
+    };
+    keepassxc = {
+      enable = true;
+      autostart = true;
+      settings = {
+        FdoSecrets.Enabled = true;
+        Browser.Enabled = true;
+      };
+    };
   };
 
   my.programs = {
