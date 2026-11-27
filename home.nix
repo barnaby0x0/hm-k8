@@ -23,7 +23,7 @@
       autostart = false;
       settings = {
         FdoSecrets.Enabled = true;
-        Browser.Enabled = true;
+        Browser.Enabled = false;
       };
     };
   };
