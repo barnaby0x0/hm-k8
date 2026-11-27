@@ -20,7 +20,7 @@
     };
     keepassxc = {
       enable = true;
-      autostart = true;
+      autostart = false;
       settings = {
         FdoSecrets.Enabled = true;
         Browser.Enabled = true;
